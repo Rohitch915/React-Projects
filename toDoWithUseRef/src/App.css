@@ -1,0 +1,10 @@
+.input{
+  width: 85%;
+  padding: 8px;
+}
+.inputBtn{
+  width: 15%;
+  border: 0px;
+  border-radius: 0px;
+  color: red;
+}
