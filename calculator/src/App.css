@@ -1,0 +1,13 @@
+.main{
+  border: 1px solid black;
+ 
+  width: 400px;
+ margin: 100px 0px 0px 10%;
+ padding: 10px;
+}
+.buttonDiv{
+  width: 50%;
+}
+.buttonGrid{
+  row-gap: 20px;
+}
