@@ -1,0 +1,140 @@
+.myContainer{
+   display: flex;
+   
+}
+.sidebar{
+   width: 120px;
+   background-color: black;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   padding: 15px;
+   min-height: 100vh;
+   
+}
+.sidebar h3{
+   border-bottom: 1px solid rgba(255, 255, 255, 0.374);
+   padding: 10px;
+   margin-bottom: 15px;
+}
+.sidebar a{
+    background-color: transparent;
+    color: white;
+    border: 0px;
+    margin-bottom: 10px;
+    height: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+#selectedSidebar{
+   background-color: blue;
+   border-radius: 5px;
+}
+.main{
+   display: flex;
+   flex-direction: column;
+}
+.header{
+   height: 70px;
+   background-color: black;
+   width: 92vw;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+}
+.myNavUl{
+   display: flex;
+   list-style-type: none;
+   gap: 15px;
+   margin-top: 33px;
+}
+.navLi{
+   cursor: pointer;
+}
+.navLiSelected{
+   margin-top: 2px;
+   font-size: 15px;
+   color: rgba(255, 255, 255, 0.587);
+}
+.myLogin{
+   display: flex;
+   gap:20px;
+   padding: 15px;
+}
+.myLoginInput{
+   width: 250px;
+   background-color: transparent;
+   border-radius: 10px;
+   color: white;
+   padding: 10px;
+}
+.body{
+   padding: 25px 60px;
+}
+.myCard{
+   position: relative;
+   width: 420px;
+   line-height: 25px;
+   margin-bottom: 30px;
+}
+.delBtn{
+   width: 37px;
+   position: absolute;
+   right: -20px;
+   top: -15px;
+   background-color: red;
+   border: 1px solid red;
+   border-radius: 50%;
+   height: 30px;
+   padding-left: 7px;
+   cursor: pointer;
+}
+.card-mytext{
+   font-weight: 400;
+}
+.tag{
+   background-color: #0d6efd;
+  text-decoration: none;
+  margin-right: 10px;
+  color: white;
+  border-radius: 5px;
+  padding: 4px;
+  font-size: 13px;
+}
+.reactionSection{
+   background-color: #d1e7dd;
+   border: 1px solid #d1e7dd;
+   border-radius: 5px;
+   height: 50px;
+   padding: 10px;
+   margin-top: 20px;
+}
+footer{
+   margin-top: 30px;
+   padding: 0px 30px;
+}
+.footerElements ul{
+   list-style-type: none;
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+
+form{
+   padding: 25px 100px;
+}
+
+.messege{
+  margin:100px 0px ;
+  font-size: large;
+}
+
+.loader{
+   margin: 100px 0px;
+}
+@media screen and (max-width:700px) {
+   .header{
+     width:120vw;
+    
+   }
+}
