@@ -1,0 +1,33 @@
+
+.login-btn{
+  border-radius: 0px;
+}
+.main{
+  display: grid;
+  grid-template-columns: 42% 42%;
+  gap: 16%;
+  
+}
+.left{
+  display: flex;
+  gap:20px;
+  flex-direction: column;
+}
+.main-text{
+   font-size: 70px;
+   font-weight: bolder;
+}
+
+.buttons{
+  display: flex;
+  gap: 15px;
+}
+.light{
+  border: 1px solid black;
+}
+.footer-text{
+  margin-bottom: 10px;
+}
+.footer > img{
+  margin-left: 10px;
+}

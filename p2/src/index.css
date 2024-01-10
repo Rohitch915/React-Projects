@@ -1,0 +1,65 @@
+nav{
+  margin-bottom: 10px;
+}
+.nav-items{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.contact{
+  font-weight: bold;
+}
+.text{
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.support{
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 15px;
+}
+.left{
+  width: 100%;
+}
+.btns{
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.btns > *{
+  border-radius: 0px;
+  width: 40%;
+}
+
+.email-form-btn{
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.523);
+  border-radius: 2px;
+  padding: 12px;
+  margin-bottom: 20px;
+}
+form > div{
+  margin-top: 10px;
+}
+form > div > *{
+  margin-bottom: 5px;
+}
+.submit{
+  border-radius: 0px;
+  
+  margin-top: 10px;
+  width: 38%;
+ 
+}
+
+form > div > input,form>div>textarea{
+  width: 100%;
+  padding:7px ;
+}
+
+.result{
+  margin-top: 10px;
+  width: 100%;
+}
